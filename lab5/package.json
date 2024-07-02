@@ -1,5 +1,5 @@
 {
-  "name": "lab4",
+  "name": "lab5",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.4",
+    "@auth/prisma-adapter": "^2.4.1",
+    "next": "^14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@prisma/client": "^5.15.1"
+    "@prisma/client": "^5.16.1",
+    "bcrypt": "^5.1.1",
+    "prisma": "^5.16.1"
   }
 }
